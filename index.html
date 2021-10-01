@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Restaurante María Auxiliadora</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/res.css" />
+</head>
+<body>
+<header id="box">
+<h1>Restaurante María Auxiliadora</h1>
+</header>
+<img id="menui" src="img/Menu.PNG" alt="MenuI">
+<form action="javascript:void(0);" class="demoForm" id="pizzaForm">
+<fieldset>
+<legend>Elija su combo:</legend>
+<p>Combos:
+<label><input type="radio" name="size" value="7.50" checked="checked"
+/> Super Combo</label>
+<label><input type="radio" name="size" value="5.75" /> Combo Personal</label>
+<label><input type="radio" name="size" value="3.50" /> Combo Infantil</label>
+<label><input type="radio" name="size" value="0" /> Ningún Combo</label>
+<input type="hidden" name="sz_tot" value="0.00" />
+</p>
+<p>Cantidad:
+    <input type="number">
+</p>
+<p id="pizza_toppings"><label>Otros productos:</label>
+<label><input type="checkbox" name="ensalada" value="1.50" /> Ensalada</label>
+<label><input type="checkbox" name="papa" value="1.25" /> Papa frita</label>
+<label><input type="checkbox" name="polloG" value="1.75" /> Pieza de pollo grande</label>
+<label><input type="checkbox" name="polloM" value="1.50" /> Pieza de pollo mediana</label>
+<label><input type="checkbox" name="polloP" value="1.25" /> Pieza de pollo pequeña</label>
+<label><input type="checkbox" name="bebidag" value="1.50" /> Bebida grande</label>
+<label><input type="checkbox" name="bebidam" value="1.25" /> Bebida mediana</label>
+<label><input type="checkbox" name="bebidap" value="1.00" /> Bebida pequeña</label>
+<label><input type="checkbox" name="cafe" value="0.50" /> Café</label>
+<label><input type="checkbox" name="postres" value="1.25" /> Postre</label>
+<input type="hidden" name="tops_tot" value="0.00" />
+</p>
+<p>
+<label>
+Total: $<input type="text" name="total" class="num" value="0.00"
+readonly="readonly" />
+</label>
+</p>
+<p>
+<input type="submit" name="submit" value="Submit" />
+</p>
+</fieldset>
+</form>
+<script src="js/pizza.js"></script>
+</body>
+</html>

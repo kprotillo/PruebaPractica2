@@ -1,0 +1,61 @@
+body {
+    font: 16px/1.4 Tahoma,Helvetica,Kalimati,Sans-serif;
+}
+
+#box {
+  font-weight: bold;
+  min-width: 500px;
+  padding: 20px auto;
+  text-align: center;
+  -webkit-backface-visibility: hidden; 
+}
+
+#flashlight {
+    color: hsla(0,0%,0%,0);
+    font-size: 3em;
+    perspective: 80px;
+    outline: none;
+}
+
+ul {
+    margin:1.4em 0 2em;
+}
+
+ul li {
+    margin-bottom:.8em;
+}
+
+form.demoForm fieldset {
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    width: 70%;
+}
+
+form.demoForm p {
+    line-height: 1.1;
+    padding:0 6px;
+}
+form.demoForm legend {
+    margin-left:6px;
+}
+
+form.demoForm label {
+    margin-right: .8em;
+}
+form.demoForm input {
+    vertical-align: bottom;
+    padding:0;
+    margin:0; /* needed for checkboxes */
+}
+form.demoForm input.num {
+    text-align: right;
+    width: 50px;
+}
+
+/* for ie8+ (wraps tightly) */
+form.demoForm input[type=submit] {
+    padding:1px 4px;
+}
+#menui{
+    margin-left:33% ;
+}
